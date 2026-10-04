@@ -1,0 +1,9 @@
+{
+  "name": "study",
+  "version": "0.1.0",
+  "description": "Study skills built on proven learning techniques: Feynman, blurting, active recall, spaced repetition.",
+  "author": {
+    "name": "flo-kohl"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,24 @@
+# Never commit study material or test inputs. This repo is public.
+*.pdf
+*.ppt
+*.pptx
+*.key
+*.doc
+*.docx
+*.odt
+*.odp
+*.epub
+*.mp3
+*.mp4
+*.m4a
+*.wav
+
+# Local test material and skill evaluation runs
+test-material/
+material/
+*-workspace/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/

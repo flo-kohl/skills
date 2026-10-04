@@ -1,0 +1,16 @@
+{
+  "name": "flo-kohl-skills",
+  "owner": {
+    "name": "flo-kohl"
+  },
+  "metadata": {
+    "description": "Method-based AI skills, starting with learning-science skills for students."
+  },
+  "plugins": [
+    {
+      "name": "study",
+      "source": "./study",
+      "description": "Study skills built on proven learning techniques: Feynman, blurting, active recall, spaced repetition."
+    }
+  ]
+}
