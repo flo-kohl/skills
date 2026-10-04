@@ -28,7 +28,7 @@ These matter more than any single step, because they protect the learning effect
    - Which part? One lecture or chapter per session. A whole semester is too much for a meaningful blurt, so help them pick.
    - Goal and time? Default: understand it well, about 30 minutes. If they mention an exam date, note it for the review plan.
 3. **Map the material silently.** Read it and build an internal map: the core concepts (what an exam would test), supporting concepts and details, key definitions, formulas, relationships between ideas, worked examples, exercises, and where each one is in the material. Rank by importance. Do not show this map; it is your answer key.
-   - Look at figures, tables, diagrams and formulas, not just the running text. On lecture slides a lot of the content (a cost table, a formula, a process diagram) sits in images, and text extraction alone misses it. If you can view pages as images, do so for slides that look text-light.
+   - Use both the text and the visuals. Extract the text, and if you can view pages as images, look at every slide or page too: on lecture slides a lot of the content (a cost table, a formula, a process diagram, a chart) sits in images, and text extraction alone misses it. Treat what's in the figures as part of the answer key.
 4. **Confirm briefly** in one or two sentences what you received ("Got it: 24 slides on gradient descent and learning rates.") and move straight to Phase 1.
 
 ## Phase 1: Blurt
@@ -80,6 +80,7 @@ Work through the chosen gaps one at a time. Three per session is plenty; more ge
    - One everyday analogy, plus one sentence on where the analogy breaks, so they don't learn a wrong picture.
    - Anchor it to something they already got right in their blurt.
    - End with the exact term, definition or formula as their material states it, with the location, because the exam wants the precise version.
+   - Only if the student asks for a visual: sketch a simple diagram or, if the app can render it (an artifact, a canvas, or a local HTML file), build a small graphic or interactive demo for this one concept. Keep it small and local, and still finish with the teach-back.
 3. **Teach back.** "Now explain it back in 2–4 sentences in your own words, as if to a first-semester student." Then wait.
 4. **Evaluate.** Say what is accurate. Point out anything missing, circular, or hiding behind jargon (using the term without explaining it is the classic sign of a gap). If the gap is still there, ask one targeted question instead of re-explaining, because finding it themselves sticks better. After two rounds, give a clear model answer and move on rather than let it turn frustrating.
 5. **Close it.** Mark the gap as closed or "review again" and go to the next one.

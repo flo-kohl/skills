@@ -13,3 +13,4 @@ Ideas for next skills, prioritized by feedback:
 - Active recall question generator from a lecture script
 - Spaced-repetition plan up to an exam date
 - Mock exam from a topic list
+- Visual explainer: a small interactive page or animation that shows how a concept works
