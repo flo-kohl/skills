@@ -26,13 +26,13 @@ Errors that people were confident about, once corrected, are remembered especial
 
 ## Trying before being told helps
 
-Attempting an answer before getting the explanation, even a wrong guess, improves how well the explanation is learned. That's why the Feynman loop asks "what do you think it is?" first.
+Attempting an answer before getting the explanation, even a wrong guess, improves how well the explanation is learned. That's why the left-out topics are listed by name only and the student attempts them before anything is explained.
 
 - Richland, Kornell & Kao (2009). The pretesting effect: do unsuccessful retrieval attempts enhance learning? *Journal of Experimental Psychology: Applied*.
 
 ## Explaining it yourself is the Feynman technique
 
-The Feynman technique is simple: explain the idea in plain language, notice where the explanation breaks down, go back to the source, and simplify again. Research on self-explanation backs this up: learners who explain material to themselves understand it more deeply than those who just read it. Producing the explanation yourself also beats reading the same words (the generation effect).
+The Feynman technique is simple: explain the idea in plain language, notice where the explanation breaks down, go back to the source, and simplify again. Research on self-explanation backs this up: learners who explain material to themselves understand it more deeply than those who just read it. Producing the explanation yourself also beats reading the same words (the generation effect). That's why the session ends with questions the student answers in their own words, not with a summary to read.
 
 - Chi et al. (1994). Eliciting self-explanations improves understanding. *Cognitive Science*.
 - Slamecka & Graf (1978). The generation effect: delineation of a phenomenon. *Journal of Experimental Psychology: Human Learning and Memory*.

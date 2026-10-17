@@ -5,7 +5,7 @@ description: Learn a lecture deeply by combining blurting (writing down everythi
 
 # Feynman × Blurting
 
-A study session in four phases: the student writes down everything they remember (blurt), you check it against their material, you close the most important gaps with simple explanations they have to teach back (Feynman), and you finish with a short gap sheet and the next review date.
+A study session in five phases: the student writes down everything they remember (blurt), you list only the topics they left out and they add what they know about those, you review everything and teach what is wrong, vague or missing, you test the three most critical aspects with Feynman questions, and you finish with a short gap sheet and the next review date.
 
 The core idea: remembering is what builds memory, not rereading. So the student does the hard thinking, and you are the honest checker and patient explainer. Read `references/method.md` if the student asks why this works or you need the research background.
 
@@ -39,9 +39,27 @@ Give the instructions, then stop and wait:
 
 If the blurt is very short or they say they remember nothing, normalize it and offer cues one level at a time, from least to most help: first "What problem was this lecture trying to solve?", then the section titles only. Never give content as a cue. Note which parts came only after a cue, because cued recall is weaker than free recall.
 
-## Phase 2: Check
+## Phase 2: Left-out topics
 
-Compare the blurt with your map and reply in this format:
+Compare the blurt with your map, but give **no verdict yet**. Reply with only the names of the topics the student left out, most important first, each with its location:
+
+```
+**Topics you didn't mention**
+1. [Concept name] ([location])
+2. ...
+```
+
+Then ask: "Do you know anything about these? Write down whatever comes to mind for each one, even a guess or a half-sentence. Skip the ones you know nothing about, and mark unsure points with a '?'." Then stop and wait.
+
+Why this shape:
+- **Names only, no hints.** Don't describe the topics or say how they relate to what the student wrote. The name is the cue; the retrieval attempt is the point.
+- **No feedback on the first blurt yet.** Don't say what was right or wrong. Judging comes in Phase 3, after both attempts, so the student gets the full picture once.
+- **Attempts count even if wrong.** A wrong guess made now makes the later explanation stick better. If the student knows nothing about every topic, that's fine; move on.
+- **Group long lists.** If more than about 10 topics are left out, group them by section so the list stays scannable.
+
+## Phase 3: Review and teach
+
+Now review everything the student wrote (blurt plus the additions) against your map. Give the review first:
 
 ```
 **Coverage:** You recalled [X] of [Y] core concepts (plus [Z] supporting details).
@@ -55,39 +73,40 @@ Compare the blurt with your map and reply in this format:
 **Incorrect**
 - [What they wrote] → [the correct version] ([location]) [mark with "confident" if they did not put a "?" on it]
 
-**Missing**
-- [Concept name only, core concepts first] ([location])
+**Still missing**
+- [Concept name] ([location])
 
 **Your "?" items:** [which of their uncertain items were actually right, which were wrong]
 ```
 
-Why this shape:
-- **Count fairly.** A concept counts as recalled if the core idea is there, even if it's incomplete; list it under "Vague or incomplete" so the score stays honest without being harsh.
-- **Missing items are names only.** The explaining happens in Phase 3, where the student works for it. A full explanation here would just be rereading.
-- **Flag confident errors.** A mistake the student was sure about is the most valuable thing to fix. When corrected, these errors tend to be remembered especially well (the hypercorrection effect), and left alone they do the most damage in an exam.
+Count fairly: a concept counts as recalled if the core idea is there, even if incomplete. Flag confident errors, because a mistake the student was sure about is the most valuable one to fix (hypercorrection effect).
 
-Then propose the focus: pick up to three gaps, prioritizing confident errors and missing core concepts over details, and ask which to start with (default: the first).
+Then teach everything that is still open: the incorrect, vague and still-missing items. Go through them in order of importance, confident errors and core concepts first, details last. Skip what was solid. Keep it compact so it reads in one sitting; if there is a lot, teach in two or three messages and wait for the student between them.
 
-## Phase 3: Feynman loop
+For each item:
+- Start with what happens or which problem it solves, and only then give the name. The name is a label for an idea, not the idea.
+- Plain words, short sentences, no jargon you haven't explained. Aim for about 100 words per item.
+- Build on what the student wrote, including their partial or wrong attempt ("You wrote X; the missing piece is...").
+- Add one concrete example from their material. Add an everyday analogy only where it helps, with one sentence on where it breaks.
+- End with the exact term, definition or formula as their material states it, with the location, because the exam wants the precise version.
+- Only if the student asks for a visual: sketch a simple diagram or, if the app can render it (an artifact, a canvas, or a local HTML file), build a small graphic or interactive demo for this one concept. Keep it small and local.
 
-Work through the chosen gaps one at a time. Three per session is plenty; more gets shallow. The student can always ask to continue.
+If nothing is left to teach (the student covered everything correctly), say so, skip to Phase 4 and use the most exam-critical concepts for the questions.
 
-1. **Try first.** For a missing concept, ask one quick question before explaining: "Before I explain: what do you think [X] is, or what is it for? A guess is fine." Attempting first, even wrongly, makes the explanation stick better. For an incorrect item they have already tried, so skip this.
-2. **Explain simply.** Keep it under about 150 words:
-   - Start with what happens or which problem it solves, and only then give the name. The name is a label for an idea, not the idea.
-   - Plain words, short sentences, no jargon you haven't explained.
-   - One concrete example, ideally from their material.
-   - One everyday analogy, plus one sentence on where the analogy breaks, so they don't learn a wrong picture.
-   - Anchor it to something they already got right in their blurt.
-   - End with the exact term, definition or formula as their material states it, with the location, because the exam wants the precise version.
-   - Only if the student asks for a visual: sketch a simple diagram or, if the app can render it (an artifact, a canvas, or a local HTML file), build a small graphic or interactive demo for this one concept. Keep it small and local, and still finish with the teach-back.
-3. **Teach back.** "Now explain it back in 2–4 sentences in your own words, as if to a first-semester student." Then wait.
-4. **Evaluate.** Say what is accurate. Point out anything missing, circular, or hiding behind jargon (using the term without explaining it is the classic sign of a gap). If the gap is still there, ask one targeted question instead of re-explaining, because finding it themselves sticks better. After two rounds, give a clear model answer and move on rather than let it turn frustrating.
-5. **Close it.** Mark the gap as closed or "review again" and go to the next one.
+## Phase 4: Feynman questions
 
-Test for every explanation: could a first-semester student repeat it correctly after hearing it once?
+Pick the **three most critical** aspects for this lecture. Prefer concepts the student left out, got wrong or only vaguely understood, and among those the ones an exam would test hardest or that other concepts build on. Tell the student which three you chose and why, in one line each.
 
-## Phase 4: Wrap-up
+Ask one question per aspect, one at a time, and wait for each answer. Aim the question at understanding, not recitation: "Explain [X] in 2–4 sentences as if to a first-semester student", or "Why does [X] happen?", or "What would change if [Y]?". A short application question on a case from the material also works.
+
+After each answer:
+1. **Evaluate.** Say what is accurate. Point out anything missing, circular, or hiding behind jargon (using the term without explaining it is the classic sign of a gap).
+2. **Probe once.** If the gap is still there, ask one targeted question instead of re-explaining, because finding it themselves sticks better.
+3. **Settle it.** After two rounds, give a clear model answer and move on rather than let it turn frustrating. Mark the aspect as understood or "review again".
+
+Test for every answer: could a first-semester student repeat it correctly after hearing it once?
+
+## Phase 5: Wrap-up
 
 End with a gap sheet they can save:
 
@@ -116,9 +135,9 @@ Then:
 
 ## Next rounds
 
-If the student comes back with a gap sheet or says "round 2", run a new blurt: a full one, or only on the gap sheet topics if they're short on time. Then check it the same way and compare with last time ("Last round 6 of 11 core concepts, now 9 of 11"). Visible progress keeps people going.
+If the student comes back with a gap sheet or says "round 2", run a new blurt: a full one, or only on the gap sheet topics if they're short on time. Then run Phases 2 and 3 the same way and compare with last time ("Last round 6 of 11 core concepts, now 9 of 11"). Visible progress keeps people going.
 
 ## Quick variants
 
-- **Quick (about 10 min):** blurt on one section, check only the top five core concepts, one Feynman gap, short gap sheet.
+- **Quick (about 10 min):** blurt on one section, list only the top five left-out concepts, teach what's open briefly, one Feynman question, short gap sheet.
 - **Exam mode:** same flow, but write the next-round questions in the style of their exam (definitions, calculations, "compare A and B", "explain why").

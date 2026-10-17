@@ -1,13 +1,14 @@
 # Feynman × Blurting
 
-Learn a lecture by recalling it, not rereading it. You write down everything you remember, the AI checks it against your own lecture material, explains your gaps simply, and you teach them back.
+Learn a lecture by recalling it, not rereading it. You write down everything you remember, the AI lists what you left out, you add what you know about it, then it reviews everything against your own lecture material, teaches what's missing or wrong, and quizzes you on the three most critical points.
 
 ## How a session works
 
 1. **Blurt.** Close your notes and write down everything you remember about the lecture, as if explaining it to a classmate who missed it. Mark anything you're unsure about with "?".
-2. **Check.** The AI compares your blurt with your material: what's solid, what's vague, what's wrong (with the page or slide where the correct version is), and what's missing.
-3. **Feynman loop.** For your most important gaps, the AI explains each one in plain words with an example and an analogy. Then you explain it back in your own words until it holds.
-4. **Gap sheet.** You get a short list of what to review, the misconceptions you fixed, questions for next time, and the date for your next round.
+2. **Left-out topics.** The AI lists only the names of the topics you didn't mention. You write down whatever you know about them, even a guess.
+3. **Review and teach.** The AI reviews everything you wrote against your material: what's solid, vague, wrong (with the page or slide of the correct version) or still missing. Then it teaches you what's open, in plain words with examples.
+4. **Feynman questions.** For the three most critical aspects, the AI asks you to explain or apply them in your own words, and probes until they hold.
+5. **Gap sheet.** You get a short list of what to review, the misconceptions you fixed, questions for next time, and the date for your next round.
 
 Why this works, with the research behind it: [references/method.md](references/method.md).
 
@@ -25,7 +26,7 @@ Works best with a model that can read PDFs including images, since slides often 
 
 ## What a check looks like
 
-An excerpt from a session on a (made-up) lecture about gradient descent:
+An excerpt from the review step of a session on a (made-up) lecture about gradient descent:
 
 > **Coverage:** You recalled 5 of 8 core concepts (plus 3 supporting details).
 >
@@ -35,8 +36,7 @@ An excerpt from a session on a (made-up) lecture about gradient descent:
 > **Incorrect**
 > - "A bigger learning rate always converges faster" → too large a learning rate can overshoot and diverge (slide 14). *confident*
 >
-> **Missing**
-> - Local vs. global minima (slide 18)
+> **Still missing** (after your second pass on the left-out topics)
 > - Stochastic vs. batch gradient descent (slides 20–22)
 
 ## Good to know
